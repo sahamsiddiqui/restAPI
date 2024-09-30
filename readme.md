@@ -4,13 +4,16 @@
 This API estimates the expected traffic count based on given targeting criteria including countries, platforms, verticals, browsers, and total requests.
 
 ## Installation Instructions
-1. **Unzip the Project Folder**:
-   - Unzip the project folder to a desired location on your machine.
+1. **Clone the Repository**:
+     ```sh
+     git clone https://github.com/sahamsiddiqui/restAPI.git
 
-2. **Navigate to the Project Directory**:
-   - Open a terminal or command prompt and navigate to the unzipped project directory.
+     ```
 
-3. **Create and Activate a Virtual Environment**:
+3. **Navigate to the Project Directory**:
+   - Open a terminal or command prompt and navigate to the project directory.
+
+4. **Create and Activate a Virtual Environment**:
    - Create a virtual environment:
      ```sh
      python -m venv venv
@@ -25,7 +28,7 @@ This API estimates the expected traffic count based on given targeting criteria 
        source venv/bin/activate
        ```
 
-4. **Install the Required Packages**:
+5. **Install the Required Packages**:
    - Run the following command to install the necessary dependencies:
      ```sh
      pip install -r requirements.txt
